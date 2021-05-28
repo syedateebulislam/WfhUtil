@@ -1,0 +1,25 @@
+h1
+{
+	margin-top: 2%;	
+	font-family: impact,comic sans MS;
+	letter-spacing: 5px;
+	word-spacing: 7px;
+	position: relative;
+}
+
+fieldset{
+	width: 30%;
+ 	height: 60%; 
+	margin-left: 30%;
+	margin-top: 2%;	
+	text-align: center;
+}
+.qr{
+	margin-right: 25%;
+	margin-top: -70px;	
+}
+.data{
+	margin-left: 5%;
+	margin-bottom: -40px;	
+	text-align: center;	
+}

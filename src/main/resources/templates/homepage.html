@@ -1,0 +1,32 @@
+<html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>WFH Utility</title>
+<link rel="stylesheet" type="text/css" href="editpage_CSS.css"
+	th:href="@{css/homepage_css.css}" />
+</head>
+<body>
+
+	<fieldset>
+		<br /> <br /> <br />
+		<h1>
+			<u>WFH Utility</u>
+		</h1>
+		<br /> <br />
+		<p>Press below buttons for cursor movements</p>
+		<br />
+		<div style="display: inline-block; margin-right: 20px">
+			<form action="startCursor" method="get">
+				<button type="submit">Start</button>
+			</form>
+		</div>
+		<div style="display: inline-block">
+			<form action="stopCursor" method="get">
+				<button type="submit">Stop</button>
+			</form>
+		</div>
+		<br /> <br /> Total Usage Time is - <b><span th:text="${time}">time</span></b>
+	</fieldset>
+
+</body>
+</html>
